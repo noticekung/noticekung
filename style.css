@@ -1,0 +1,39 @@
+{
+	margin: 0 auto;	
+	padding: 0;
+}
+
+
+
+.container {
+	wight: 960px;
+	margin: 0 auto;
+	background: defalut;
+	
+}
+	
+
+header {
+	text-align: left;
+	wight: auto;
+	height: auto;
+}
+content {
+	text-align: center;
+	width: auto;
+	height: auto;
+}
+
+top {
+	text-align: center;
+	wight: 0 auto;
+	height: 20px;
+	background: gray;
+	margin: 0 auto;
+}
+
+.topbar {
+	width: 100%;
+	background: white;
+	font-family: 'Chelsea Market', cursive; 
+}
