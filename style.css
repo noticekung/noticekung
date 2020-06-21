@@ -13,6 +13,7 @@
 	margin: 0 auto;
 	background: defalut;
 	
+	
 }
 	
 
@@ -101,4 +102,4 @@ top {
   input:checked ~ .menu-content {
 	max-height: 100%;
   }
-  
+
