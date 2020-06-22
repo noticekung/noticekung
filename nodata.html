@@ -49,9 +49,8 @@
 			<a class="nav-link" href="./etc"><i class="fa fa-list"></i>&nbsp;อื่นๆ</a>
 	</li>
 	      
-</ul>
-	      
 	</ul>
+
 
   </div>
 </div>
@@ -69,47 +68,48 @@
     </ul>
   </div>
   </div>
+  <center>
+  <h2>ขออภัยตอนนี้ยังไม่มีข้อมูลในหน้าที่คุณกดครับครับ</h2>
+  <h4><a href="./">กดเพื่อกลับไปหน้าหลัก</a></h4>
+  <img src="./image/sry.gif" height="30% auto" width="30% auto">
+  </center>
 <hr>
 
-<iframe src="https://www.youtube.com/embed/live_stream?channel=UCfWUQvr52siAxXzPdzv4ZZA" frameborder="0" allowfullscreen width="100% auto" height="720px"></iframe>
-<hr>
-<center>
-  <h6>copyright © 2019-2020 NoticeKunG. All Rights Reserved</h6>
-</center>
 <script src="./js/jquery-1.11.1.js"
 		></script>
 <script src="./js/bootstrap.js"
 		></script>
 <script language=JavaScript>
   
-            var message="ไม่มีการอนุญาติให้คลิกขวาในเว็บนี้ครับ";
-            
+    var message="ไม่มีการอนุญาติให้คลิกขวาในเว็บนี้ครับ";
+    
 
-            function clickIE4(){
-            if (event.button==2){
-            alert(message);
-            return false;
-            }
-            }
-            
-            function clickNS4(e){
-            if (document.layers||document.getElementById&&!document.all){
-            if (e.which==2||e.which==3){
-            alert(message);
-            return false;
-            }
-            }
-            }
-            
-            if (document.layers){
-            document.captureEvents(Event.MOUSEDOWN);
-            document.onmousedown=clickNS4;
-            }
-            else if (document.all&&!document.getElementById){
-            document.onmousedown=clickIE4;
-            }
-            
-            document.oncontextmenu=new Function("alert(message);return false")
-            </script>
+    function clickIE4(){
+    if (event.button==2){
+    alert(message);
+    return false;
+    }
+    }
+    
+    function clickNS4(e){
+    if (document.layers||document.getElementById&&!document.all){
+    if (e.which==2||e.which==3){
+    alert(message);
+    return false;
+    }
+    }
+    }
+    
+    if (document.layers){
+    document.captureEvents(Event.MOUSEDOWN);
+    document.onmousedown=clickNS4;
+    }
+    else if (document.all&&!document.getElementById){
+    document.onmousedown=clickIE4;
+    }
+    
+    document.oncontextmenu=new Function("alert(message);return false")
+</script>
+</div>    
 </body>
 </html>
